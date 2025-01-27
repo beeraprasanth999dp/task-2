@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tips</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eceef1;
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .card img {
+            width: 100%; 
+            height: 100vh;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        footer {
+            margin-top: 30px;
+            background-color: #9aaec3;
+            color: white;
+            
+            padding: 10px ;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Health Tips</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#healthy-eating">Healthy Eating</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#exercise-tips">Exercise Tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mental-health">Mental Health</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <div class="container text-center mb-4">
+        <h1>Welcome to Health Tips</h1>
+        <p>Your go-to resource for simple, effective health tips to improve your well-being.</p>
+    </div>
+
+
+    <div class="container">
+        
+        <div id="healthy-eating" class="mb-4">
+            <h2><i class="fas fa-apple-alt text-success"></i> Healthy Eating</h2>
+            <p>A healthy diet is the foundation of good health. Here are some tips for eating better:</p>
+            <ul>
+                <li>Incorporate a variety of fruits and vegetables into your meals for essential vitamins and minerals.</li>
+                <li>Limit processed and sugary foods. Opt for whole grains and lean proteins.</li>
+                <li>Stay hydrated by drinking plenty of water throughout the day.</li>
+            </ul>
+            <div class="card">
+                <img src="../images/eat1.jpg" class="card-img-top" alt="Healthy Eating">
+                <div class="card-body">
+                    <p class="card-text">A balanced diet helps boost immunity, improve energy levels, and maintain a healthy weight. Remember to practice portion control!</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="exercise-tips" class="mb-4">
+            <h2><i class="fas fa-dumbbell text-primary"></i> Exercise Tips</h2>
+            <p>Regular physical activity keeps your body strong and your mind sharp. Follow these tips:</p>
+            <ul>
+                <li>Aim for at least 30 minutes of moderate exercise five days a week.</li>
+                <li>Combine cardio exercises (like running or cycling) with strength training for overall fitness.</li>
+                <li>Incorporate flexibility exercises, like yoga or stretching, to improve mobility and prevent injuries.</li>
+            </ul>
+            <div class="card">
+                <img src="../images/excercise.jpeg" class="card-img-top" alt="Exercise Tips">
+                <div class="card-body">
+                    <p class="card-text">Exercise not only improves physical health but also boosts mood and reduces stress levels. Start small and build up gradually!</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="mental-health" class="mb-4">
+            <h2><i class="fas fa-brain text-warning"></i> Mental Health</h2>
+            <p>Mental well-being is just as important as physical health. Here are some tips:</p>
+            <ul>
+                <li>Practice mindfulness and meditation to reduce stress and anxiety.</li>
+                <li>Maintain a work-life balance to prevent burnout.</li>
+                <li>Stay connected with family and friends. Social support is crucial for mental health.</li>
+                <li>Seek professional help if you feel overwhelmed or experience prolonged sadness.</li>
+            </ul>
+            <div class="card">
+                <img src="../images/mmm.jpg" class="card-img-top" alt="Mental Health">
+                <div class="card-body">
+                    <p class="card-text">Taking care of your mental health allows you to lead a more fulfilling and productive life. Don’t hesitate to prioritize your well-being.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div id="contact" class="container mb-4">
+        <h2><i class="fas fa-envelope text-danger"></i> Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+
+   
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
